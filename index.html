@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#F5F2ED"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="preload" href="assets/car.svg" as="fetch" crossorigin>
+<meta property="og:type" content="website"><meta property="og:title" content="car.k.d — Built to stand apart"><meta property="og:description" content="Premium car customisation studio. Transforming ordinary machines into something unmistakably yours."><meta property="og:image" content="assets/hero-reference.png"><meta name="twitter:card" content="summary_large_image">
+<title>car.k.d — Built to stand apart</title><meta name="description" content="car.k.d is a premium car customisation studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;1,800;1,900&family=Archivo+Narrow:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="loader" aria-hidden="true"><div class="brand big"><i></i>car.k.d</div><div class="bar"><span></span></div></div>
+<header class="top">
+<a class="brand" href="#home"><i></i>car.k.d</a>
+<nav class="glass nav" aria-label="Main"><a href="#home" class="on">Home</a><a href="#customisation">Customisation</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+<aside class="glass dock" aria-label="Studio controls">
+<button id="sound" class="snd" aria-pressed="false" aria-label="Toggle engine sound" data-audio=""><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M3 9v6h4l5 4V5L7 9z"/><path id="waves" d="M15 8.5a5 5 0 0 1 0 7M17.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path id="mute" d="M15 9l6 6M21 9l-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span id="soundLabel">Sound Off</span><b class="live"></b></button>
+<button id="menuBtn" class="menu" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+</aside>
+<div id="menu" class="glass menu-panel" hidden><a href="#home">Home</a><a href="#customisation">Customisation</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+<div class="rail" aria-hidden="true"><b id="secNum">01</b><span>04</span><i class="d on"></i><i class="d"></i><i class="d"></i><i class="d"></i></div>
+
+<main>
+<section id="home" class="hero" data-sec="0">
+<div class="sun"></div><div class="pillar p1"></div><div class="pillar p2"></div><div class="floor"></div>
+<div class="copy">
+<p class="eyebrow r">Custom&ensp;Upgrade&ensp;Drive</p>
+<h1><span class="r">BUILT TO</span><span class="red r">STAND APART.</span></h1>
+<p class="sub r">Transforming ordinary machines into something unmistakably yours.</p>
+<div class="cta r"><a class="glass btn" href="#customisation">Explore the Craft<i><svg viewBox="0 0 24 24" width="16" height="16"><path d="M9 5l7 7-7 7" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></i></a><a class="link" href="#about">Discover more</a></div>
+</div>
+<div class="stage"><div class="car-wrap" id="carWrap"><div id="car"><img src="assets/car.svg" alt="White and red modified sports coupe" width="900" height="290"></div><div id="car-reflection" aria-hidden="true"></div></div></div>
+<div class="glass hud r" aria-label="Vehicle status"><button id="mode" class="cell"><b class="live"></b><small>Drive mode</small><strong id="modeName">Performance</strong></button><div class="cell"><small>Speed</small><strong><span id="speed">0</span> km/h</strong></div><div class="cell"><small>RPM</small><strong id="rpm">800</strong></div></div>
+<a class="scroll r" href="#customisation"><span>Scroll to explore</span></a>
+</section>
+<section id="customisation" class="blk" data-sec="1"><h2>Customisation</h2><p>Paint, aero, wheels and stance, planned with you before a single panel is touched.</p></section>
+<section id="gallery" class="blk alt" data-sec="2"><h2>Gallery</h2><p>Finished builds will appear here.</p></section>
+<section id="about" class="blk" data-sec="3"><h2>About</h2><p>car.k.d is a studio for people who want their car to be one of one.</p><p id="contact" class="foot">Contact: <a href="mailto:sidddmailbox@gmail.com">sidddmailbox@gmail.com</a></p></section>
+</main>
+<noscript><style>#loader{display:none}.r{opacity:1;transform:none}</style></noscript>
+<script src="script.js" defer></script></body></html>
